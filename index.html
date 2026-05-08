@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Policy Analyzer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Password Policy Analyzer</h1>
+    <p class="subtitle">COMP 151 - Discrete Structures Project</p>
+
+    <div class="input-section">
+        <input type="password" id="password" placeholder="Enter your password">
+        <button onclick="togglePassword()">Show/Hide</button>
+    </div>
+
+    <button class="check-btn" onclick="analyzePassword()">
+        Analyze Password
+ </button>
+
+    <div class="strength-container">
+        <div id="strengthBar"></div>
+    </div>
+
+    <h2 id="classification">Classification: </h2>
+    <h3 id="score">Rules Satisfied: 0/10</h3>
+
+    <div class="rules">
+
+        <div id="rule1">❌ Minimum length of 8 characters</div>
+        <div id="rule2">❌ Maximum length of 20 characters</div>
+        <div id="rule3">❌ At least one uppercase letter</div>
+        <div id="rule4">❌ At least one lowercase letter</div>
+        <div id="rule5">❌ At least one digit</div>
+        <div id="rule6">❌ At least one special character</div>
+        <div id="rule7">❌ No spaces allowed</div>
+        <div id="rule8">❌ No consecutive letters</div>
+        <div id="rule9">❌ No consecutive digits</div>
+        <div id="rule10">❌ No character repeated more than 3 times</div>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
