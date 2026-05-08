@@ -260,7 +260,7 @@ This project fully satisfies the requirements of the COMP 151 Discrete Structure
 
 # Author
 
-Student Name: ____________________
+Student Name:Nouman khan raja
 
 Course: COMP 151 – Discrete Structures
 
